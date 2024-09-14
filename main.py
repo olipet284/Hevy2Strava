@@ -7,8 +7,8 @@ import os
 def configure():
     load_dotenv()
 
-strava_client_id = os.getenv('client_id')
-strava_client_secret = os.getenv('client_secret')
+strava_client_id = os.getenv('strava_client_id')
+strava_client_secret = os.getenv('strava_client_secret')
 
 # Open the following link
 print(
